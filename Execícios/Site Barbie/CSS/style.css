@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(#00BFFF, #86A8E7, #D16BA5);
+}
+
+h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    font-size: 70px;
+    color: #e0218a;
+}
+
+hr{
+    width: 50%;
+    background: linear-gradient(to left, #E0218A, #FF48A4, #FF68BF);
+    height: 12px;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+p{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    width: 50%;
+    color: #e0218a;
+    
+}
+
+img{
+    width: 350px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+#imagens{
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 800px;
+}
+
+#video{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+#letreiro{
+    display: block;
+    margin: auto;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30px;
+    color: white;
+}
