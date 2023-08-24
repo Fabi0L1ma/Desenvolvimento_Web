@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(cyan, blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#central{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+    background: linear-gradient(white, grey);
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+#on{
+    color: black;
+    background: yellow;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#off{
+    color: black;
+    background: gray;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+
+
