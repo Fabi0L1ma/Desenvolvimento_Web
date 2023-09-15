@@ -1,0 +1,92 @@
+body{
+    background: rgb(167, 167, 245);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    background: gray;
+    display: flex;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.box_time{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
+
+.caixaHora{
+    background: rgb(204, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 120px;
+    width: 120px;
+}
+
+#H{
+    height: 1px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+.caixaMin{
+    background: rgb(204, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 120px;
+    width: 120px;
+}
+
+#M{
+    height: 1px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caixaSeg{
+    background: rgb(204, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 120px;
+    width: 120px;
+}
+
+#S{
+    height: 1px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pontos{
+    font-size: 50px;
+}
